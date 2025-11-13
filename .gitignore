@@ -1,43 +1,97 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
 
-# testing
-/coverage
 
-# next.js
-/.next/
-/out/
+# dependencies# dependencies
 
-# production
-/build
+/node_modules/node_modules
 
-# misc
-.DS_Store
-*.pem
-desktop.ini
-Thumbs.db
+/.pnp/.pnp
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+.pnp.*.pnp.*
 
-# env files (can opt-in for committing if needed)
-.env*
+.yarn/*.yarn/*
 
-# vercel
-.vercel
+!.yarn/patches!.yarn/patches
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+!.yarn/plugins!.yarn/plugins
+
+!.yarn/releases!.yarn/releases
+
+!.yarn/versions!.yarn/versions
+
+
+
+# testing# testing
+
+/coverage/coverage
+
+
+
+# next.js# next.js
+
+/.next//.next/
+
+/out//out/
+
+
+
+# production# production
+
+/build/build
+
+
+
+# misc# misc
+
+.DS_Store.DS_Store
+
+*.pem*.pem
+
+desktop.inidesktop.ini
+
+Thumbs.dbThumbs.db
+
+
+
+# debug# debug
+
+npm-debug.log*npm-debug.log*
+
+yarn-debug.log*yarn-debug.log*
+
+yarn-error.log*yarn-error.log*
+
+.pnpm-debug.log*.pnpm-debug.log*
+
+
+
+# env files (can opt-in for committing if needed)# env files (can opt-in for committing if needed)
+
+.env*.env*
+
+
+
+# vercel# vercel
+
+.vercel.vercel
+
+
+
+# typescript# typescript
+
+*.tsbuildinfo*.tsbuildinfo
+
+next-env.d.tsnext-env.d.ts
+
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+node_modules
